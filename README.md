@@ -1,6 +1,8 @@
 # urbit-skills
 
-Claude Code skills for interacting with running Urbit ships.
+A growing repository of AI agent skills that solves the problem of coding agents having imperfect understanding of the Urbit runtime, Urbit terminal commands, and Urbit-native programming languages like Hoon and Nock. These skills give AI agents practical knowledge of ship operations, the Urbit development workflow, and the tools that ship owners and app developers use day to day.
+
+The skills below are the first in the collection, focused on ship interaction. Future skills will cover areas like Hoon development, agent building, desk management, testing, and more.
 
 ## Skills
 
