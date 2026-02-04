@@ -6,11 +6,12 @@ This guide explains how to create new AI agent skills for the urbit-skills repos
 
 ```
 urbit-skills/
-├── SKILL.md                 # Repository overview
 ├── AGENTS.md                # This guide
 ├── LICENSE                  # MIT License
-└── <skill-name>/
-    └── SKILL.md             # Skill definition
+├── README.md                # Repository overview
+└── skills/
+    └── <skill-name>/
+        └── SKILL.md         # Skill definition
 ```
 
 ## What is a Skill?
@@ -27,14 +28,14 @@ Each skill has two parts:
 ### Step 1: Create the Skill Directory
 
 ```bash
-mkdir -p urbit-skills/your-skill-name
+mkdir -p urbit-skills/skills/your-skill-name
 ```
 
 Use lowercase letters, numbers, and hyphens only (max 64 characters).
 
 ### Step 2: Write SKILL.md
 
-Create `urbit-skills/your-skill-name/SKILL.md` with the following structure:
+Create `urbit-skills/skills/your-skill-name/SKILL.md` with the following structure:
 
 ```markdown
 ---
